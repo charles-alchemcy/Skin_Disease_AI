@@ -8,7 +8,6 @@ import seaborn as sns
 from sklearn.metrics import (ConfusionMatrixDisplay, confusion_matrix, classification_report)
 import matplotlib.pyplot as plt
 
-
 x_train = pickle.load(open('dir../x_train', 'rb'))
 x_val = pickle.load(open('dir../x_val', 'rb'))
 x_test = pickle.load(open('dir../x_test', 'rb'))
