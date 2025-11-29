@@ -8,6 +8,7 @@ import tensorflow.keras as K
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.preprocessing.image import img_to_array
 
+
 model = K.models.load_model("model_dir..")
 types = ['acne', 'carcinoma', 'eczema', 'keratosis', 'millia', 'rosacea']
 
