@@ -12,7 +12,6 @@ from tensorflow.keras.preprocessing import image
 from sklearn.model_selection import StratifiedShuffleSplit
 from tensorflow.keras.preprocessing.image import img_to_array
 
-
 img_path = os.listdir('dataset_dir')
 
 features = []
